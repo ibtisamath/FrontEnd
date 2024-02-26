@@ -66,7 +66,7 @@ async function filterworks() {
           displayworks()
        });
       } else {
-        displayworks();
+        displayworks(); 
       }
 
     });
