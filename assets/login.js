@@ -38,12 +38,12 @@ function getusers ()  {
 }
 getusers()
 
-//const json = JSON.stringify({ email, passwordInput})
-//console.log(json)
-const modifyItem = document.querySelector(".modify h2"); //div modify-item (élément parent)
-const btnModify = document.createElement("span"); //bouton modifier
-btnModify.textContent = "modifier"; //texte du bouton
-const SvgIconModify = `<i class="far fa-edit"></i>`; // ajout de l'icone de modification
-modifyItem.appendChild(btnModify); //place le bouton dans la div modify-item
+const json = JSON.stringify({ email, passwordInput})
+console.log(json)
+//const modifyItem = document.querySelector(".modify h2"); //div modify-item (élément parent)
+//const btnModify = document.createElement("span"); //bouton modifier
+//btnModify.textContent = "modifier"; //texte du bouton
+//const SvgIconModify = `<i class="far fa-edit"></i>`; // ajout de l'icone de modification
+//modifyItem.appendChild(btnModify); //place le bouton dans la div modify-item
 //ajoute la chaîne SVG en tant que nœud DOM à l'élément modify-item
-modifyItem.innerHTML += SvgIconModify;
+//modifyItem.innerHTML += SvgIconModify;
