@@ -63,6 +63,7 @@ async function filterworks() {
         });
         btnworks.forEach ((work) => {
           createworks(work)
+          displayworks()
        });
       } else {
         displayworks();
